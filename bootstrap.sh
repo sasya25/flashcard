@@ -1,3 +1,3 @@
 #!/bin/sh
-export FLASK_APP=./flashcard/index.py
+export FLASK_APP=./index.py
 pipenv run flask --debug run -h 0.0.0.0
